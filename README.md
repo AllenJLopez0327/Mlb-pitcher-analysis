@@ -41,7 +41,23 @@ All raw CSVs are gitignored due to size. Download and place in `Data/Raw/`:
 - `01_Data_Collection.ipynb` — Load, clean, and merge all data sources into master dataset
 - More coming soon...
 
-## Setup
+
+## Dashboard (Bonus +5%)
+We are building an interactive Plotly Dash web app with 4 tabs:
+- **Tab 1: Pitcher Archetype Explorer** — PCA plot, select pitcher/year, see their archetype
+- **Tab 2: Cy Young Predictor** — input stats, get predicted vote share and ranking
+- **Tab 3: Historical Snubs** — model winner vs actual winner 2015–2025
+- **Tab 4: 2025 Live Leaderboard** — current AL/NL Cy Young race
+
+## Data
+All raw CSVs are gitignored. Download instructions are in the README. 
+Share CSVs with teammates via Google Drive or iMessage since they can't be pushed to GitHub.
+
+## Getting Started for Teammates
+1. Clone the repo
+2. Get the raw CSVs from Allen and place in `Data/Raw/`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run notebooks in order starting with `01_Data_Collection.ipynb`
 
 ```bash
 git clone https://github.com/AllenJLopez0327/Mlb-pitcher-analysis.git
