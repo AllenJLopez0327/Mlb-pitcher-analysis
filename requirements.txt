@@ -10,3 +10,6 @@ jupyter
 scipy
 xgboost
 lightgbm
+gunicorn
+statsmodels
+pickle5

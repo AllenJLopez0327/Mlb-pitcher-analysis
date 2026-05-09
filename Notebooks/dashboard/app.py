@@ -23,6 +23,8 @@ tree_features = ['xERA', 'SIERA', 'WAR', 'K%', 'HR/9', 'BB%',
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 app.title = "MLB Cy Young Predictor"
 
+server = app.server
+
 COLORS = {'bg': '#0a0e1a', 'card': '#141824', 'accent': '#3b82f6',
           'gold': '#f59e0b', 'text': '#e2e8f0', 'muted': '#64748b'}
 
